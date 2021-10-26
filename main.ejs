@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Product_Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/stylesheets/mainStyle.css?ver=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+<%- include ('common/header.ejs') %>
+<div class="wrap">
+  <div class="slideshow">
+    <h2>인기 게임</h2>
+    <div class="slide">
+      <a href="https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/">
+        <img src="/images/main/slide1.jpg">
+        <div class="game_info">Fall Guys: Ultimate Knockout
+          <br>10,250원 (50% 할인)</div></a>
+    </div>
+
+    <div class="slide">
+      <a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/">
+        <img src="/images/main/slide2.jpg">
+        <div class="game_info">PUBG: BATTLEGROUNDS
+          <br>32,000원 (정가)</div></a>
+    </div>
+
+    <div class="slide">
+      <a href="https://store.steampowered.com/app/648800/Raft/">
+        <img src="/images/main/slide3.jpg">
+        <div class="game_info">Raft
+          <br>21,000원 (정가)</div></a>
+    </div>
+
+    <div class="slide">
+      <a href="https://www.epicgames.com/store/ko/p/chivalry-2">
+        <img src="/images/main/slide4.jpg">
+        <div class="game_info">Chivalry 2
+          <br>33,000원 (정가)</div></a>
+    </div>
+
+    <div class="slide">
+      <a href="https://www.epicgames.com/store/ko/p/grand-theft-auto-v">
+        <img src="/images/main/slide5.jpg">
+        <div class="game_info">Grand Theft Auto V
+          <br>66,000원 (정가)</div></a>
+    </div>
+
+    <div class="slide">
+      <a href="https://www.epicgames.com/store/ko/p/hitman-3">
+        <img src="/images/main/slide6.jpg">
+        <div class="game_info">HITMAN 3
+          <br>64,900원 (정가)</div></a>
+    </div>
+
+    <div class="slide">
+      <a href="https://www.origin.com/kor/ko-kr/store/madden/madden-22/offer-selection">
+        <img src="/images/main/slide7.png">
+        <div class="game_info">Madden NFL 22
+          <br>66,000원 (정가)</div></a>
+    </div>
+
+    <div class="slide">
+      <a href="https://www.origin.com/kor/ko-kr/store/the-sims/the-sims-4/offer-selection">
+        <img src="/images/main/slide8.jpeg">
+        <div class="game_info">The Sims 4
+          <br>44,000원 (정가)</div></a>
+    </div>
+
+    <div class="slide">
+      <a href="https://www.origin.com/kor/ko-kr/store/star-wars/star-wars-jedi-fallen-order/offer-selection">
+        <img src="/images/main/slide9.jpg">
+        <div class="game_info">Star Wars Jedi: Fallen Order
+          <br>66,000원 (정가)</div></a>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="sidebar">
+      <h2>카테고리</h2>
+      <br>
+      <ul>
+        <li><a href="#">인기 제품</a></li>
+        <li><a href="#">할인 제품</a></li>
+      </ul>
+      <br>
+      <br>
+      <h2>장르</h2>
+      <br>
+      <ul>
+        <li><a href="#">액션</a></li>
+        <li><a href="#">어드벤쳐</a></li>
+        <li><a href="#">인디</a></li>
+        <li><a href="#">시뮬레이션</a></li>
+        <li><a href="#">FPS</a></li>
+        <li><a href="#">리듬</a></li>
+        <li><a href="#">전략</a></li>
+      </ul>
+      <br>
+      <br>
+      <h2>ESD</h2>
+      <br>
+      <ul>
+        <li><a href="https://store.steampowered.com/?l=koreana">Steam</a></li>
+        <li><a href="https://www.epicgames.com/store/ko/">Epic Games</a></li>
+        <li><a href="https://www.origin.com/kor/ko-kr/store">Origin</a></li>
+        <li><a href="https://www.microsoft.com/ko-kr/store/apps/windows">MS</a></li>
+        <li><a href="https://www.gog.com/">GOG</a></li>
+        <li><a href="https://www.ubisoft.com/ko-kr/">Ubisoft</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+
+<div class="discount">
+  <div class="Steam_title">
+    <h2>Steam 할인 게임</h2>
+  </div>
+  <div class="Steam">
+    <div class="discount_game1">
+      <a href="https://store.steampowered.com/app/1293830/Forza_Horizon_4/"><img src="/images/main/discount1.jpg"></a>
+      <h2>Forza Horizon 4</h2>
+      <p>시뮬레이션 | 액션 | 어드벤쳐
+        <br><br>
+        <span>29,950원 (50% 할인)</span>
+      </p>
+    </div>
+
+    <div class="discount_game2">
+      <a href="https://store.steampowered.com/app/779340/Total_War_THREE_KINGDOMS/"><img src="/images/main/discount2.jpg"></a>
+      <h3>Total War: THREE KINGDOMS</h3>
+      <p>시뮬레이션 | 액션 | 전략
+        <br><br>
+        <span>35,880원 (40% 할인)</span>
+      </p>
+    </div>
+
+    <div class="discount_game3">
+      <a href="https://store.steampowered.com/app/1222140/Detroit_Become_Human/"><img src="/images/main/discount3.jpg"></a>
+      <h2>Detroit: Become Human</h2>
+      <p>어드벤쳐
+        <br><br>
+        <span>19,950원 (50% 할인)</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="Epic_title">
+    <h2>Epic Games 할인 게임</h2>
+  </div>
+  <div class="Epic_Games">
+    <div class="discount_game4">
+      <a href="https://www.epicgames.com/store/ko/p/outriders"><img src="/images/main/discount4.jpg"></a>
+      <h2>OUTRIDERS</h2>
+      <p>액션 | 어드벤쳐 | FPS
+        <br><br>
+        <span>42,550원 (40% 할인)</span>
+      </p>
+    </div>
+
+    <div class="discount_game5">
+      <a href="https://www.epicgames.com/store/ko/p/a-total-war-saga-troy"><img src="/images/main/discount5.jpg"></a>
+      <h3>A Total War Saga: TROY</h3>
+      <p>전략
+        <br><br>
+        <span>37,500원 (25% 할인)</span>
+      </p>
+    </div>
+
+    <div class="discount_game6">
+      <a href="https://www.epicgames.com/store/ko/p/buddy-simulator-1984"><img src="/images/main/discount6.jpg"></a>
+      <h2>Buddy Simulator 1984</h2>
+      <p>어드벤쳐 | 인디
+        <br><br>
+        <span>9,000원 (10% 할인)</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n){
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n){
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n){
+    var i;
+    var slides = document.getElementsByClassName("slide");
+    var dots = document.getElementsByClassName("dot");
+    if(n > slides.length){
+      slideIndex = 1
+    }
+
+    if(n < 1) {
+      slideIndex = slides.length
+    }
+    for(i = 0; i < slides.length; i++){
+      slides[i].style.display = "none";
+    }
+
+    for(i = 0; i < dots.length; i++){
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+</script>
+</body>
+</html>
